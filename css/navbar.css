@@ -1,0 +1,325 @@
+.dropcheck {
+    display: none;
+}
+
+.dropdownContent {
+    display: none;
+    box-shadow: none;
+}
+
+nav {
+    user-select: none;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 650px) {
+    .links {
+        display:none;
+    }
+    
+    .dropbtn {
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .dropbtnWrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .dropbtn2 {
+        margin-right: 18px;
+    }
+
+    .clickit {
+        transition: opacity .2s ease-in-out;
+    }
+
+    .dropdownContent {
+        display: none;
+        text-align: center;
+        min-width: 160px;
+        z-index: -1 !important;
+        position: absolute;
+        width: 100vw !important;
+        background: var(--modal); /* color */
+        /* position: relative; */
+        box-shadow: 0 0 0rem 0rem rgba(0,0,0,0);
+    }
+
+    .dropdownContent a {
+        color: var(--txt);
+        font-weight: 400;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdownContent a:nth-child(4) {
+        padding: 6px 16px;
+    }
+
+    .dropdownContent .icons {
+        display: inline-block;
+        padding: 1em 10px !important;
+        transition: transform .3s ease-in-out;
+        color: var(--txt);
+    }
+
+    .dropcheck {    
+      position: absolute;
+      left: -9999px;
+    }
+
+    nav h1 {
+        background: var(--modal); /* color */
+        border-bottom: 1px solid var(--glassBord);
+    }
+
+    .slide-down {
+        display: block;
+        animation: mobSlideDown .5s forwards, mobSlideDownShadow .5s forwards;
+        transition: all .5s ease-in-out;
+    }
+    
+    .slide-up {
+        display: block;
+        animation: mobSlideUp .5s forwards, mobSlideUpShadow .5s forwards;
+        transition: all .5s ease-in-out;
+    }
+    
+    @keyframes mobSlideDown {
+        0% {transform: translateY(-100vh);}
+        100% {transform: translateY(-.5vh);}
+    }
+
+    @keyframes mobSlideDownShadow {
+        55% {box-shadow: 0 0 0rem 40rem rgba(0,0,0,0);}
+        100% {box-shadow: 0 0 0rem 40rem rgba(0,0,0,0.5);}
+    }
+    
+    @keyframes mobSlideUp {
+        0% {transform: translateY(-.5vh);}
+        100% {transform: translateY(-100vh);}
+    }
+
+    @keyframes mobSlideUpShadow {
+        0% {box-shadow: 0 0 0rem 40rem rgba(0,0,0,0.5);}
+        23.5% {box-shadow: 0 0 0rem 40rem rgba(0,0,0,0);}
+    }
+
+    .logoImg {
+        width: 100%;
+    }
+    
+    .mobileLogo {
+        display: flex;
+    }
+    
+    .mobileLogoWrap {
+        text-align: left !important;
+        width: 25%;
+        margin-left: 18px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    nav div:first-child h1 {
+        line-height: 0;
+        padding: 5% 0 !important;
+        margin:-20px 1rem;
+        display: block !important;
+    } 
+
+    nav div:first-child h1, nav ul{
+        margin:0;
+    }
+
+    .dropbtn:first-child {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #navbar, #nav {
+        position: fixed !important;
+        top: 0px !important;
+    }
+    
+    nav {
+        z-index: 99 !important;
+        position: relative;
+    }
+    
+    .fixed {
+        top: 0px !important;
+        animation: none !important;
+        transform: none !important;
+        width: 100% !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .fries {
+        display: block;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .line {
+        width: 20px;
+        height: 3px;
+        background-color: var(--txt);
+        margin: 2.5px 0;
+        transition: 0.4s;
+        border-radius: 1vw;
+    }
+
+    .line2 {
+        width: 10px !important;
+    }
+
+    .fries.open .line:nth-child(1) {
+        transform: rotate(-45deg) translate(-5.3px, 6px);
+    }
+
+    .fries.open .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .fries.open .line:nth-child(3) {
+        transform: rotate(45deg) translate(-5.3px, -6px);
+    }
+}
+
+/* Desktop View */
+.desLogo img {
+    float: left;
+    text-align: left;
+    width: 100px;
+    height: auto;
+    padding: 15px 5px;
+    padding-bottom: 22px !important;
+}
+
+.links {
+    padding-left: 11px !important;
+}
+
+nav div:first-child h1 {
+    display: none;
+}
+    
+.desWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.separator {
+    color: var(--txt);
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: .2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul div {
+    display: flex;
+}
+
+nav ul li {
+    border-bottom:none;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li span { /* separator */
+    font-weight: 200 !important;
+    opacity: .4;
+}
+
+nav ul li a {
+    position: relative;
+    color: var(--txt);
+    text-decoration: none;
+    margin: .8rem 1rem;
+    display: block;
+    line-height: 25px;
+    font-weight: 400 !important;
+}
+
+nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0;
+    background-color: var(--txt);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.15s ease-in-out;
+}
+
+nav ul li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+     
+#navbar, #nav {
+    position: sticky;
+    z-index: 2;
+}
+
+.fixed {
+    position: fixed;
+    top: -100px;
+    width: 98%;
+    animation: slideDown .5s;
+    animation-fill-mode: forwards, none;
+    border-radius: 100px ;
+    transform: translateX(1%);
+    background: #800000; /* color */
+    color: white;
+    border: 1px solid var(--glassBord);
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.3); */
+    z-index: 50 !important;
+    backdrop-filter: blur(5px);
+}
+
+.fixed .separator {
+    color: var(--txt);
+}
+
+.fixed .desLogo img {
+    float: left;
+    text-align: left;
+    width: 100px;
+    height: auto;
+    padding: 15px 5px;
+    padding-bottom: 15px !important;
+    transform: translateY(-2px);
+}
+
+@keyframes slideDown {
+    1% {top: -100px;}
+    100% {top: 1.5%;}
+}

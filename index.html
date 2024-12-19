@@ -33,6 +33,17 @@
             href="https://site-assets.fontawesome.com/releases/v6.5.1/css/brands.css"
         />
 
+        <!-- CSS/Scripts -->
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <script src="js/navbar.js" defer></script>
+
+        <!-- Fonts: Instrument Sans, Mona Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
         <!-- Metadata -->
         <meta name="author" content="Jim Atnip">
         <meta name="title" content="Atnip Construction">
@@ -44,37 +55,61 @@
         <title>Atnip Construction</title>
     </head>
     <body>
-        <header>
-            <h1>Welcome to Atnip Construction</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+    
+    <div class="container">
+        
+        <!--Navbar-->
+        <nav id="navbar">
+            <!--mobile view-->
+            <div class="dropdown">
+                <input id="dropcheck" class="dropcheck" type="checkbox"/>
+                <h1>
+                    <div class="dropbtnWrap">
+                            <!-- <a href="/" title="Logo" class="mobileLogoWrap">
+                                <img class="logoImg" src="imgs/navWording.png" alt="Logo"/>
+                            </a> -->
+                            <a href="/" title="Logo" class="mobileLogoWrap">
+                                Logo
+                            </a>
+                        <label id="dropdownLabel" for="dropcheck" class="dropbtn2">
+                            <a class="dropbtn clickit" title="Navigation Button" aria-label="Navigation Button">
+                                <div class="fries">
+                                    <div class="line"></div>
+                                    <div class="line line2"></div>
+                                    <div class="line"></div>
+                                </div>                              
+                            </a>
+                        </label>
+                    </div>
+                </h1>
+                <div class="dropdownContent">
+                    <a href="/" title="" aria-label="Link">Link</a>
+                    <a href="/" title="" aria-label="Link">Link</a>
+                    <a href="/" title="" aria-label="Link">Link</a>
+                    <a href="/" title="" aria-label="Link">Link</a>
+                </div>
+            </div>
+            <!--desktop view-->
+            <div class="desWrap">
+                <ul class="links">
+                    <!-- <a class="desLogo" href="/" rel="noopener noreferrer">
+                        <img src="imgs/navWording.png" alt="Logo"/>
+                    </a> -->
+                    <a class="desLogo" href="/" rel="noopener noreferrer">
+                        Logo
+                    </a>
+                    <div>
+                        <li><a href="/" title="" aria-label="">Links</a></li>
+                        <li><a href="/" title="" aria-label="">Links</a></li>
+                        <li><a href="/" title="" aria-label="">Links</a></li>
+                        <li><a href="/" title="" aria-label="">Links</a></li>
+                    </div>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="home">
-                <h2>Home</h2>
-                <p>Welcome to Atnip Construction, where quality craftsmanship meets superior service.</p>
-            </section>
-            <section id="about">
-                <h2>About Us</h2>
-                <p>At Atnip Construction, we specialize in custom-home designs and high-quality homes.</p>
-            </section>
-            <section id="services">
-                <h2>Our Services</h2>
-                <p>We offer a range of services including home building, custom homes, and home design.</p>
-            </section>
-            <section id="contact">
-                <h2>Contact Us</h2>
-                <p>Get in touch with us to discuss your next project.</p>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2023 Atnip Construction. All rights reserved.</p>
-        </footer>
+            </div>
+        </nav>
+
+        <div style="height: 200vh;"></div>
+
+    </div>
     </body>
 </html>
