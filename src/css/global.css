@@ -1,7 +1,7 @@
 @import url(colors.css);
 
 body {
-    background-color: pink;
+    background-color: var(--bg);
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Mona Sans', sans-serif;
@@ -15,9 +15,9 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     min-height: 100vh;
-    /* max-width: 2600px;
-    margin: 0 auto; */
+    width: 100%;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h2 {
     font-family: 'Instrument Sans', serif;
     font-size: 32px;
     font-weight: 700;
-    color: var(--txt2);
+    color: var(--txt);
     margin-top: 20px;
     text-align: center;
     margin-bottom: 10px;
@@ -44,7 +44,7 @@ h3 {
     font-family: 'Instrument Sans', serif;
     font-size: 22px;
     font-weight: 700;
-    color: var(--txt2);
+    color: var(--txt);
     text-align: center;
     margin-top: 0;
     margin-right: 10%;
@@ -55,7 +55,7 @@ p1 {
     text-align: center;
     display: block;
     font-size: 18px;
-    color: var(--txt3);
+    color: var(--txt);
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 0em;
@@ -147,17 +147,50 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media only screen and (max-width: 700px) {
     h1 {
-        font-family: 'baloo 2', cursive;
         font-size: 32px !important;
     }
 
     h2 {
-        font-family: 'baloo 2', cursive;
         font-size: 22px !important;
     }
 
     h3 {
-        font-family: 'baloo 2', cursive;
         font-size: 18px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        max-width: calc(100% - 36px);
+    }
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
     }
 }

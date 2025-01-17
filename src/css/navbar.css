@@ -1,8 +1,8 @@
-.dropcheck {
+.mobDropcheck {
     display: none;
 }
 
-.dropdownContent {
+.mobDropContent {
     display: none;
     box-shadow: none;
 }
@@ -17,19 +17,19 @@ nav {
         display:none;
     }
     
-    .dropbtn {
+    .friesWrap {
         cursor: pointer;
         width: 100%;
     }
 
-    .dropbtnWrap {
+    .mobDropdownWrap {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100vw;
     }
 
-    .dropbtn2 {
+    .mobDropbtn2 {
         margin-right: 18px;
     }
 
@@ -37,19 +37,19 @@ nav {
         transition: opacity .2s ease-in-out;
     }
 
-    .dropdownContent {
+    .mobDropContent {
         display: none;
         text-align: center;
         min-width: 160px;
         z-index: -1 !important;
         position: absolute;
         width: 100vw !important;
-        background: var(--modal); /* color */
+        background: var(--navBar); /* color */
         /* position: relative; */
         box-shadow: 0 0 0rem 0rem rgba(0,0,0,0);
     }
 
-    .dropdownContent a {
+    .mobDropContent a {
         color: var(--txt);
         font-weight: 400;
         padding: 12px 16px;
@@ -57,25 +57,44 @@ nav {
         display: block;
     }
 
-    .dropdownContent a:nth-child(4) {
+    /* .mobDropContent a:nth-child(4) {
         padding: 6px 16px;
-    }
+    } */
 
-    .dropdownContent .icons {
+    .mobDropContent .icons {
         display: inline-block;
         padding: 1em 10px !important;
         transition: transform .3s ease-in-out;
         color: var(--txt);
     }
 
-    .dropcheck {    
+    .mobDropContent .mobDropItems {
+        display: none;
+        background: var(--navBarAlt); /* color */
+        transition: all .5s ease-in-out;
+    }
+    
+    .mobDropContent .mobDropItems a {
+        padding: 8px 16px;
+        border-bottom: 1px solid var(--navOutline);
+    }
+
+    .mobDropContent .mobDropItems a:last-child {
+        border-bottom: none;
+    }
+
+    .mobDropContent .mobDropItems.show {
+        display: block;
+    }
+
+    .mobDropcheck {    
       position: absolute;
       left: -9999px;
     }
 
     nav h1 {
-        background: var(--modal); /* color */
-        border-bottom: 1px solid var(--glassBord);
+        background: var(--navBar); /* color */
+        border-bottom: 1px solid var(--navOutline);
     }
 
     .slide-down {
@@ -110,18 +129,20 @@ nav {
         23.5% {box-shadow: 0 0 0rem 40rem rgba(0,0,0,0);}
     }
 
-    .logoImg {
+    .mobLogo {
         width: 100%;
     }
     
-    .mobileLogo {
-        display: flex;
-    }
-    
-    .mobileLogoWrap {
+    .mobLogoWrap {
         text-align: left !important;
         width: 25%;
         margin-left: 18px;
+    }
+
+    .mobLogoWrap span {
+        font-size: 32px !important;
+        font-family: 'Instrument Sans', serif;
+        font-weight: 700;
     }
     
     nav {
@@ -141,7 +162,7 @@ nav {
         margin:0;
     }
 
-    .dropbtn:first-child {
+    .friesWrap:first-child {
         display: flex;
         justify-content: space-between;
     }
@@ -211,18 +232,38 @@ nav {
     padding-bottom: 22px !important;
 }
 
+.desLogo span {
+    font-size: 1.8rem;
+    margin: 0 0rem !important;
+    line-height: 3rem;
+    font-weight: 800;
+    color: var(--txt);
+}
+
 .links {
-    padding-left: 11px !important;
+    padding-left: 0px !important;
+}
+
+.links div {
+    padding-top: 1.5rem;
+}
+
+nav ul div li:last-child a {
+    margin-right: 0;
 }
 
 nav div:first-child h1 {
     display: none;
 }
     
-.desWrap {
+.desNavWrap {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .separator {
@@ -259,7 +300,7 @@ nav ul li a {
     position: relative;
     color: var(--txt);
     text-decoration: none;
-    margin: .8rem 1rem;
+    margin: 0rem 1rem .8rem 1rem;
     display: block;
     line-height: 25px;
     font-weight: 400 !important;
@@ -269,8 +310,8 @@ nav ul li a:before {
     content: "";
     position: absolute;
     width: 100%;
-    height: 3px;
-    border-radius: 10px;
+    height: 1px;
+    /* border-radius: 10px; */
     bottom: 0px;
     left: 0;
     background-color: var(--txt);
@@ -281,7 +322,7 @@ nav ul li a:before {
 
 nav ul li a:hover:before {
     visibility: visible;
-    transform: scaleX(1);
+    transform: scaleX(.95);
 }
      
 #navbar, #nav {
@@ -291,18 +332,15 @@ nav ul li a:hover:before {
 
 .fixed {
     position: fixed;
-    top: -100px;
-    width: 98%;
-    animation: slideDown .5s;
+    top: -200px;
+    width: 100%;
+    animation: desSlideDown .5s;
     animation-fill-mode: forwards, none;
-    border-radius: 100px ;
-    transform: translateX(1%);
-    background: #800000; /* color */
-    color: white;
-    border: 1px solid var(--glassBord);
-    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.3); */
+    background: var(--navBar); /* color */
+    box-shadow: 0 -2rem 0rem 0rem white;
+    border-bottom: 1px solid var(--navOutline);
+    /* transform: translateX(-10rem); */
     z-index: 50 !important;
-    backdrop-filter: blur(5px);
 }
 
 .fixed .separator {
@@ -319,7 +357,70 @@ nav ul li a:hover:before {
     transform: translateY(-2px);
 }
 
-@keyframes slideDown {
-    1% {top: -100px;}
+.desDrop .desDropItems {
+    display: none;
+    position: absolute;
+    transform: translate(0, 75%);
+    background: var(--navBar); /* color */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 1rem 0;
+}
+
+.desDrop > a:hover + .desDropItems {
+    display: block;
+}
+
+.desDrop i {
+    transform: translateY(.1rem) !important;
+    margin: .5rem;
+}
+
+.desDrop .desDropItems {
+    display: none;
+    background: var(--navBar); /* color */
+    padding: 0;
+}
+
+.desDrop .desDropItems a {
+    margin: .8rem 1rem;
+}
+
+.desDrop .desDropItems.show {
+    display: block;
+}
+
+@keyframes desSlideDown {
+    1% {top: -200px;}
     100% {top: 1.5%;}
+}
+
+@media (min-width: 640px) {
+    .desNavWrap {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .desNavWrap {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .desNavWrap {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .desNavWrap {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .desNavWrap {
+        max-width: 1536px;
+    }
 }

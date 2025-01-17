@@ -1,0 +1,42 @@
+/* Global Color Guide */
+
+:root {
+    --txt: black; 
+    --txt2: white;
+
+    --bg: white;
+    --bg2: #ad5c00;
+
+    --navBar:white;
+    --navBarAlt: #e1e3e6;
+    --navOutline: rgba(0, 0, 0, 0.2);
+    --navOutline2: #e1e3e61a;
+
+    --main: #800000;
+    --main2: #ad5c00;
+    --main3: #ffad52;
+    --main4: #ffde8c;
+
+    
+    --glass: rgba(255, 255, 255, 0.15);
+    --glassHov: rgba(255, 255, 255, 0.3);
+    --glassBord: rgba(255, 255, 255, 0.4);
+    
+    /* --bttnTxt: #80ccfd;
+    --glass2: #80ccfd26;
+    --glassHov2: #80ccfd4d; */
+    
+
+    --altColor:#80ccfd;
+    --bubbleAmbient: rgba(255, 255, 255, 0.2);
+
+    --open: #01b700;
+    --busy: #e5b700;
+    --closed: #c90013;
+
+    --footer: #003179;
+
+    --scrollThumb: #d9e7ff;
+    --scrollHov: #f8fbff;
+    --scrollBg: #002763;
+}
