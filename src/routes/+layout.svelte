@@ -3,12 +3,15 @@
 	import BackToTopButton from '$lib/components/BackToTop.svelte';
 	import NavigationBar from '$lib/components/NavigationBar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import HeroSlideshow from '$lib/components/HeroSlideshow.svelte';
 	import '$css/global.css';
 	import '$lib/global.js';
+	// import '$css/colors.css';
 	export let data;
 </script>
 
 <NavigationBar/>
+<HeroSlideshow/>
 <div class="container">
 	<!-- <BackToTopButton/> -->
 	<main>
@@ -20,3 +23,11 @@
 	</main>
 </div>
 <Footer/>
+
+<style>
+    :global(body) {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+</style>

@@ -8,7 +8,7 @@
 
 <style>
     .housesBanner {
-        background-image: url('/imgs/housesBanner.svg');
+        background-image: url('/housesBanner.svg');
         width: 100%;
         height: 140px;
         background-size: auto 100%;
@@ -34,7 +34,7 @@
     }
 
     .footLogo {
-        background-image: url('/imgs/atnipLogo.svg');
+        background-image: url('/atnipLogo.svg');
         width: 150px;
         height: 100px;
         background-size: contain;

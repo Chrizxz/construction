@@ -1,8 +1,12 @@
 /* Global Color Guide */
 
 :root {
-    --txt: black; 
-    --txt2: white;
+    --txtB: black; 
+    --txtB2: #333333;
+    --txtB3: #666666;
+    --txtW: #ffffff;
+    --txtW2: #f1f1f1;
+    --txtW3: #e1e3e6;
 
     --bg: white;
     --bg2: #ad5c00;

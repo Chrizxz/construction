@@ -98,7 +98,7 @@
         <h1>
             <div class="mobDropdownWrap">
                 <a href="/" title="Logo" class="mobLogoWrap">
-                    <img class="mobLogo" src="imgs/atnipLogo.svg" alt="Logo"/>
+                    <img class="mobLogo" src="/atnipLogo.svg" alt="Logo"/>
                     <!-- <span>Atnip</span> -->
                 </a>
                 <label id="mobDropdownLabel" for="mobDropcheck" class="mobDropbtn2">
@@ -114,7 +114,7 @@
             </div>
         </h1>
         <div class="mobDropContent">
-            <a href="/" title="Projects" aria-label="Projects">Projects</a>
+            <a href="/" title="Projects" aria-label="Projects">Projects <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
             <div class="mobDropItems">
                 <a href="/" title="Projects Content" class="normLink" aria-label="Projects Content">Projects Content</a>
                 <a href="/" title="Sub Project 1" class="normLink" aria-label="Sub Project 1">Sub Project 1</a>
@@ -128,7 +128,7 @@
     <div class="desNavWrap">
         <ul class="links">
             <a class="desLogo" href="/" rel="noopener noreferrer">
-                <img src="imgs/atnipLogo2.svg" alt="Logo"/>
+                <img src="/atnipLogo2.svg" alt="Logo"/>
                  <!-- <span>Atnip</span> -->
             </a>
             <div>
