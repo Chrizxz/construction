@@ -3,7 +3,6 @@
 	import BackToTopButton from '$lib/components/BackToTop.svelte';
 	import NavigationBar from '$lib/components/NavigationBar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import HeroSlideshow from '$lib/components/HeroSlideshow.svelte';
 	import '$css/global.css';
 	import '$lib/global.js';
 	// import '$css/colors.css';
@@ -11,7 +10,6 @@
 </script>
 
 <NavigationBar/>
-<HeroSlideshow/>
 <div class="container">
 	<!-- <BackToTopButton/> -->
 	<main>

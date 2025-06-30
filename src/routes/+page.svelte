@@ -1,7 +1,9 @@
 <script>
     import './page.css';
+    import HeroSlideshow from '$lib/components/HeroSlideshow.svelte';
 </script>
   
+<HeroSlideshow/>
 <div class="page">
     <section id="whoweare" class="sec1">
         <div class="sec1_L">
@@ -75,7 +77,7 @@
                 Whether you have a question, need a quote, or want to discuss your ideas, 
                 we’re here to help. Reach out to us today and let’s build something great together.
             </p1>
-            <a href="/contact" class="btn">LET'S BUILD</a>
+            <a href="/wip" class="btn">LET'S BUILD</a>
         </div>
     </section>
 </div>

@@ -114,14 +114,14 @@
             </div>
         </h1>
         <div class="mobDropContent">
-            <a href="/" title="Projects" aria-label="Projects">Projects <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
+            <a href="/wip" title="Projects" aria-label="Projects">Projects <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
             <div class="mobDropItems">
-                <a href="/" title="Projects Content" class="normLink" aria-label="Projects Content">Projects Content</a>
-                <a href="/" title="Sub Project 1" class="normLink" aria-label="Sub Project 1">Sub Project 1</a>
-                <a href="/" title="Sub Project 2" class="normLink" aria-label="Sub Project 2">Sub Project 2</a>
+                <a href="/wip" title="Projects Content" class="normLink" aria-label="Projects Content">Projects Content</a>
+                <a href="/wip" title="Sub Project 1" class="normLink" aria-label="Sub Project 1">Sub Project 1</a>
+                <a href="/wip" title="Sub Project 2" class="normLink" aria-label="Sub Project 2">Sub Project 2</a>
             </div>
-            <a href="/" title="Contact Us" class="normLink" aria-label="Contact">Contact Us</a>
-            <a href="/" title="Who We Are" class="normLink" aria-label="Other Links">Who We Are</a>
+            <a href="/wip" title="Contact Us" class="normLink" aria-label="Contact">Contact Us</a>
+            <a href="/wip" title="Who We Are" class="normLink" aria-label="Other Links">Who We Are</a>
         </div>
     </div>
     <!--desktop view-->
@@ -133,14 +133,14 @@
             </a>
             <div>
                 <li class="desDrop">
-                    <a href="/" title="Projects" aria-label="Projects">Projects<i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
+                    <a href="/wip" title="Projects" aria-label="Projects">Projects<i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
                     <div class="desDropItems">
-                        <a href="/" title="Sub Project 1" aria-label="Sub Project 1">Sub Project 1</a>
-                        <a href="/" title="Sub Project 2" aria-label="Sub Project 2">Sub Project 2</a>
+                        <a href="/wip" title="Sub Project 1" aria-label="Sub Project 1">Sub Project 1</a>
+                        <a href="/wip" title="Sub Project 2" aria-label="Sub Project 2">Sub Project 2</a>
                     </div>
                 </li>
-                <li><a href="/" title="Contact Us" aria-label="Contact Us">Contact Us</a></li>
-                <li><a href="/" title="Who We Are" aria-label="Who We Are">Who We Are</a></li>
+                <li><a href="/wip" title="Contact Us" aria-label="Contact Us">Contact Us</a></li>
+                <li><a href="/wip" title="Who We Are" aria-label="Who We Are">Who We Are</a></li>
             </div>
         </ul>
     </div>
