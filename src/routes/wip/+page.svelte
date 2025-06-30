@@ -26,13 +26,12 @@
     .headBg {
         position: absolute;
         left: 50%;
-        font-size: 4.4rem;
         font-weight: 700;
         font-family: 'Instruments Sans', sans-serif;
         transform: translateX(-50%);
         opacity: 0.1;
         z-index: -1;
-        font-size: 50rem !important;
+        font-size: 45rem !important;
     }
 
     .wipCode {
@@ -58,7 +57,7 @@
         background-color: var(--main3);
     }
 
-    @media (max-width: 1550px) {
+    @media (min-width: 1550px) {
         .headBg {
             font-size: 60vw !important;
         }
