@@ -15,6 +15,10 @@ const config = {
 		}),
 		paths: {
 			base: dev ? '' : '/construction'
+		},
+		prerender: {
+			handleMissingId: 'warn', // or 'ignore' or 'error'
+			entries: ['*']
 		}
 	}
 };
