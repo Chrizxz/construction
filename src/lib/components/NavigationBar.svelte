@@ -128,7 +128,7 @@
     <div class="desNavWrap">
         <ul class="links">
             <a class="desLogo" href="/" rel="noopener noreferrer">
-                <img src="/atnipLogo2.svg" alt="Logo"/>
+                <img src="./atnipLogo2.svg" alt="Logo"/>
                  <!-- <span>Atnip</span> -->
             </a>
             <div>

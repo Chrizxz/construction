@@ -3,19 +3,19 @@
 
     const slides = [
         {
-            image: '/imgs/slide1.jpg',
+            image: './imgs/slide1.jpg',
             title: 'Atnip Construction',
             subtitle: 'Building Dreams Since 1993',
             position: 'center 40%'  // Add custom position for each slide
         },
         {
-            image: '/imgs/slide2.jpg',
+            image: './imgs/slide2.jpg',
             title: 'Quality Craftsmanship',
             subtitle: 'Excellence in Every Detail',
             position: 'center 45%'
         },
         {
-            image: '/imgs/slide3.jpg',
+            image: './imgs/slide3.jpg',
             title: 'Custom Homes',
             subtitle: 'Your Vision, Our Expertise',
             position: 'center 40%'
