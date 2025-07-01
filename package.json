@@ -8,7 +8,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"deploy": "npm run build && gh-pages -d build"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.3",
