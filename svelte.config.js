@@ -15,9 +15,6 @@ const config = {
 		}),
 		paths: {
 			base: dev ? '' : '/construction'
-		},
-		prerender: {
-			default: true,
 		}
 	}
 };
