@@ -5,7 +5,12 @@ const config = {
 	kit: {
 		// adapter-static generates a static site for deployment
 		// See https://svelte.dev/docs/adapter-static for more information
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+            handleHttpError: () => {
+                return;
+            }
+        }
 	}
 };
 
