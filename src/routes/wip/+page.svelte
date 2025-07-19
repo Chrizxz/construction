@@ -9,7 +9,7 @@
     </span>
     <h1 class="wipCode">Under Construction..</h1>
     <p>This page is being worked on. Please check back later.</p>
-    <a href="/">HOME</a>
+    <a href="./.">HOME</a>
 </div>
 
 <style>
