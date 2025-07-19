@@ -98,7 +98,7 @@
         <h1>
             <div class="mobDropdownWrap">
                 <a href="/" title="Logo" class="mobLogoWrap">
-                    <img class="mobLogo" src="/atnipLogo.svg" alt="Logo"/>
+                    <img class="mobLogo" src="./atnipLogo.svg" alt="Logo"/>
                     <!-- <span>Atnip</span> -->
                 </a>
                 <label id="mobDropdownLabel" for="mobDropcheck" class="mobDropbtn2">
