@@ -202,7 +202,8 @@
     margin-left: -50vw;
     margin-right: -50vw;
     background-position: 50% 55%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     z-index: -1;
 }
 
