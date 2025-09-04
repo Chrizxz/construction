@@ -4,7 +4,7 @@
 </script>
 
 <div class="wipPage">
-    <span class="headBg">
+    <span class="headBG">
         <i class="fa-solid fa-gear fa-spin" style="animation-duration: 10s;"></i>
     </span>
     <h1 class="wipCode">Under Construction..</h1>
@@ -23,7 +23,7 @@
         color: var(--txtB);
     }
 
-    .headBg {
+    .headBG {
         position: absolute;
         left: 50%;
         font-weight: 700;
@@ -58,7 +58,7 @@
     }
 
     @media (min-width: 1550px) {
-        .headBg {
+        .headBG {
             font-size: 60vw !important;
         }
     }

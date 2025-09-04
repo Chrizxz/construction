@@ -6,7 +6,7 @@
 <div class="errorPage">
     <h1 class="headBg">{$page.status}</h1>
     <h1 class="errorCode">{$page.status}</h1>
-    <p>Err {$page.status}: {$page.error.message}</p>
+    <p>Err: {$page.error.message}</p>
     <a href="/">HOME</a>
 </div>
 
@@ -29,6 +29,8 @@
         z-index: -1;
         font-size: 50rem !important;
     }
+
+    .headBg 
 
     .errorCode {
         font-size: 6rem !important;
