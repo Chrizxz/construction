@@ -81,7 +81,7 @@ nav {
     
     .mobDropContent .mobDropItems a {
         padding: 8px 16px;
-        border-bottom: 1px solid var(--navOutline);
+        border-bottom: 3px solid var(--txtW);
     }
 
     .mobDropContent .mobDropItems a:last-child {

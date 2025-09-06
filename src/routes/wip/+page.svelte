@@ -68,5 +68,9 @@
             font-size: 2.8rem !important;
             line-height: 3rem !important;
         }
+
+        .headBG {
+            font-size: 12rem !important;
+        }
     }
 </style>
