@@ -164,14 +164,13 @@
             #786e6e88 30%,
             rgba(0, 0, 0, .8) 100%
         );
-        filter: saturate(3);
         z-index: 1;
     }
 
     .textOverlay {
         position: absolute;
         bottom: 10%;
-        left: 3rem;
+        left: 2rem;
         color: white;
         z-index: 3;
     }
@@ -190,7 +189,7 @@
     .navigationButtons {
         position: absolute;
         bottom: 2rem;
-        right: 4rem;
+        right: 3rem;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
