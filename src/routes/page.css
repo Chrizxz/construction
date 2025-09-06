@@ -2,12 +2,6 @@
 
 /* Desktop */
 
-.page {
-    margin: 0 auto;
-    min-height: 100vh;
-    width: 100%;
-}
-
 .sec1 {
     display: flex;
     flex-direction: row;
@@ -437,41 +431,5 @@
 
     .sec4 p1 {
         width: 100%;
-    }
-}
-
-@media (max-width: 640px) {
-    .page {
-        max-width: calc(100% - 36px);
-    }
-}
-
-@media (min-width: 640px) {
-    .page {
-        max-width: 640px;
-    }
-}
-
-@media (min-width: 768px) {
-    .page {
-        max-width: 768px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .page {
-        max-width: 1024px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .page {
-        max-width: 1280px;
-    }
-}
-
-@media (min-width: 1536px) {
-    .page {
-        max-width: 1536px;
     }
 }

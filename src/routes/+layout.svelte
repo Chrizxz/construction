@@ -28,4 +28,52 @@
         padding: 0;
         overflow-x: hidden;
     }
+
+	:global(.headspace) {
+		width: 80px;
+		height: 10rem;
+		display: block;
+	}
+
+	:global(.page) {
+		margin: 0 auto;
+		min-height: 100vh;
+    	width: 100%;
+	}
+	
+	@media (max-width: 640px) {
+		:global(.page) {
+			max-width: calc(100% - 36px);
+		}
+	}
+
+	@media (min-width: 640px) {
+		:global(.page) {
+			max-width: 640px;
+		}
+	}
+
+	@media (min-width: 768px) {
+		:global(.page) {
+			max-width: 768px;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		:global(.page) {
+			max-width: 1024px;
+		}
+	}
+
+	@media (min-width: 1280px) {
+		:global(.page) {
+			max-width: 1280px;
+		}
+	}
+
+	@media (min-width: 1536px) {
+		:global(.page) {
+			max-width: 1536px;
+		}
+	}
 </style>
