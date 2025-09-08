@@ -81,6 +81,21 @@
     color: var(--main);
 }
 
+.projGrid p1 {
+    text-align: left;
+    margin-top: .4rem;
+    color: var(--txtB2);
+}
+
+.projSub .projImg {
+    border-left: 2rem solid var(--main2);
+}
+
+.projSub .projImg::before {
+    content: 'Click to open';
+    background-color: var(--main2);
+}
+
 /* Mobile */
 
 @media (max-width: 768px) {

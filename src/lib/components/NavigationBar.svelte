@@ -117,8 +117,9 @@
             <a href="/" title="Projects" aria-label="Projects">Projects <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
             <div class="mobDropItems">
                 <a href="/projects" title="Projects Content" class="normLink" aria-label="Projects Content">Projects Content</a>
-                <a href="/wip" title="Sub Project 1" class="normLink" aria-label="Sub Project 1">Sub Project 1</a>
-                <a href="/wip" title="Sub Project 2" class="normLink" aria-label="Sub Project 2">Sub Project 2</a>
+                <a href="/projects/residential" title="Residential" class="normLink" aria-label="Residential">Residential</a>
+                <a href="/projects/barns" title="Barns" class="normLink" aria-label="Barns">Barns</a>
+                <a href="/projects/commercial" title="Commercial" class="normLink" aria-label="Commercial">Commercial</a>
             </div>
             <a href="/wip" title="Contact Us" class="normLink" aria-label="Contact">Contact Us</a>
             <a href="/wip" title="Who We Are" class="normLink" aria-label="Other Links">Who We Are</a>
@@ -135,8 +136,9 @@
                 <li class="desDrop">
                     <a href="/projects" title="Projects" aria-label="Projects">Projects<i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
                     <div class="desDropItems">
-                        <a href="/wip" title="Sub Project 1" aria-label="Sub Project 1">Sub Project 1</a>
-                        <a href="/wip" title="Sub Project 2" aria-label="Sub Project 2">Sub Project 2</a>
+                        <a href="/projects/residential" title="Residential" aria-label="Residential">Residential</a>
+                        <a href="/projects/barns" title="Barns" aria-label="Barns">Barns</a>
+                        <a href="/projects/commercial" title="Commercial" aria-label="Commercial">Commercial</a>
                     </div>
                 </li>
                 <li><a href="/wip" title="Contact Us" aria-label="Contact Us">Contact Us</a></li>
