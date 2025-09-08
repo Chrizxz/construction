@@ -22,17 +22,19 @@
                 <h2>Residential</h2>
             </div>
             <div class="proj2">
-                <a href="/projects/barns-and-outbuildings">
+                <a href="/projects/barns">
                     <div class="projImg projImg1">
                         <img src="/imgs/slide1.jpg" alt="Barns and Outbuildings">
                     </div>
-                    </a>
+                </a>
                 <h2>Barns and Outbuildings</h2>
             </div>
             <div class="proj3">
-                <div class="projImg projImg1">
-                    <img src="/imgs/slide3.jpg" alt="Commercial Industrial">
-                </div>
+                <a href="/projects/commercial">
+                    <div class="projImg projImg1">
+                        <img src="/imgs/slide3.jpg" alt="Commercial Industrial">
+                    </div>
+                </a>
                 <h2>Commercial Industrial</h2>
             </div>
         </div>
