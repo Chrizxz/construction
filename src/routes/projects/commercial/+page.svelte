@@ -1,6 +1,6 @@
 <script>
     import '$css/global.css';
-    import './page.css';
+    import '../page.css';
 </script>
 
 <span class="headspace"></span>
