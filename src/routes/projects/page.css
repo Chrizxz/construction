@@ -1,0 +1,120 @@
+@import url('$css/colors.css');
+
+/* Desktop */
+
+.projWrap {
+    margin-bottom: 5rem
+}
+
+.projWrap h1 {
+    text-align: left;
+    margin-bottom: 3rem;
+    color: var(--txtB);
+}
+
+.projWrap h1::before {
+    content: ' ';
+    width: 3.5rem;
+    height: 3rem;
+    background-color: var(--main4);
+    position: absolute;
+    transform: translate(-1rem, 2rem);
+    z-index: -1;
+}
+
+.projWrap p1 {
+    text-align: left;
+    padding-right: 3rem;
+    color: var(--txtB2);
+}
+
+.projGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.projImg {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    border-left: 2rem solid var(--main);
+}
+
+.projImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.projImg::before {
+    content: 'Click to view';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--txtW);
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--main);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.projImg:hover::before {
+    opacity: 0.6;
+}
+
+.projGrid h2 {
+    text-align: left;
+    margin-top: .6rem;
+    font-size: 2.2rem;
+    color: var(--main);
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .projWrap h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .projWrap h1::before {
+        content: ' ';
+        width: 1.75rem;
+        height: 1.5rem;
+        position: absolute;
+        transform: translate(-.5rem, .8rem);
+        z-index: -1;
+    }
+
+    .projGrid {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+
+    .projImg {
+        position: relative;
+        width: 15rem;
+        height: 15rem;
+        overflow: hidden;
+        border-left: 2rem solid var(--main);
+    }
+
+    .projImg::before {
+        width: 15rem;
+        height: 15rem;
+        font-size: 1.5rem;
+    }
+}

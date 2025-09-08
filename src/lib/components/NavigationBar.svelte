@@ -114,9 +114,9 @@
             </div>
         </h1>
         <div class="mobDropContent">
-            <a href="/wip" title="Projects" aria-label="Projects">Projects <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
+            <a href="/" title="Projects" aria-label="Projects">Projects <i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
             <div class="mobDropItems">
-                <a href="/wip" title="Projects Content" class="normLink" aria-label="Projects Content">Projects Content</a>
+                <a href="/projects" title="Projects Content" class="normLink" aria-label="Projects Content">Projects Content</a>
                 <a href="/wip" title="Sub Project 1" class="normLink" aria-label="Sub Project 1">Sub Project 1</a>
                 <a href="/wip" title="Sub Project 2" class="normLink" aria-label="Sub Project 2">Sub Project 2</a>
             </div>
@@ -133,7 +133,7 @@
             </a>
             <div>
                 <li class="desDrop">
-                    <a href="/wip" title="Projects" aria-label="Projects">Projects<i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
+                    <a href="/projects" title="Projects" aria-label="Projects">Projects<i class="fa-sharp-duotone fa-solid fa-angle-down"></i></a>
                     <div class="desDropItems">
                         <a href="/wip" title="Sub Project 1" aria-label="Sub Project 1">Sub Project 1</a>
                         <a href="/wip" title="Sub Project 2" aria-label="Sub Project 2">Sub Project 2</a>
