@@ -1,3 +1,5 @@
+<title>Residential | Atnip</title>
+
 <script>
     import '$css/global.css';
     import '../page.css';

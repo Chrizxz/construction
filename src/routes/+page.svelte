@@ -1,3 +1,5 @@
+<title>Atnip Construction</title>
+
 <script>
     import './page.css';
     import HeroSlideshow from '$lib/components/HeroSlideshow.svelte';

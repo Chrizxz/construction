@@ -1,3 +1,5 @@
+<title>Barns and Outbuildings | Atnip</title>
+
 <script>
     import '$css/global.css';
     import '../page.css';

@@ -1,3 +1,5 @@
+<title>Commercial Industrial | Atnip</title>
+
 <script>
     import '$css/global.css';
     import '../page.css';
