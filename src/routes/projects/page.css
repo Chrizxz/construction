@@ -118,6 +118,7 @@
 .projSub.is-open .projImg::before {
     content: '';
     background-color: transparent;
+    display: none;
 }
 
 .projSub.is-open p1 {
