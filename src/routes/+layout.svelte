@@ -3,6 +3,12 @@
 	import BackToTopButton from '$lib/components/BackToTop.svelte';
 	import NavigationBar from '$lib/components/NavigationBar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import { onMount } from 'svelte';
+    import { initProjectImageExpand } from '$lib/projects.js';
+
+    onMount(() => {
+        initProjectImageExpand();
+    });
 	import '$css/global.css';
 	import '$lib/global.js';
 	// import '$css/colors.css';
