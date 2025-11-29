@@ -161,6 +161,10 @@
     .imgOpen {
         scale: 2;
     }
+
+    .projImg::before {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -200,7 +204,6 @@
         width: 15rem;
         height: 15rem;
         font-size: 1.5rem;
-        display: none;
     }
 
     .imgOpen {
