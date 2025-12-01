@@ -30,8 +30,6 @@
         font-size: 50rem !important;
     }
 
-    .headBg 
-
     .errorCode {
         font-size: 6rem !important;
         margin-bottom: 1rem !important;
