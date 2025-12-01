@@ -121,7 +121,7 @@
                 <a href="/projects/barns" title="Barns" class="normLink" aria-label="Barns">Barns</a>
                 <a href="/projects/commercial" title="Commercial" class="normLink" aria-label="Commercial">Commercial</a>
             </div>
-            <a href="/wip" title="Contact Us" class="normLink" aria-label="Contact">Contact Us</a>
+            <a href="/contact" title="Contact Us" class="normLink" aria-label="Contact">Contact Us</a>
             <a href="/wip" title="Who We Are" class="normLink" aria-label="Other Links">Who We Are</a>
         </div>
     </div>
@@ -141,7 +141,7 @@
                         <a href="/projects/commercial" title="Commercial" aria-label="Commercial">Commercial</a>
                     </div>
                 </li>
-                <li><a href="/wip" title="Contact Us" aria-label="Contact Us">Contact Us</a></li>
+                <li><a href="/contact" title="Contact Us" aria-label="Contact Us">Contact Us</a></li>
                 <li><a href="/wip" title="Who We Are" aria-label="Who We Are">Who We Are</a></li>
             </div>
         </ul>

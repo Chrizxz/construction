@@ -79,7 +79,7 @@
                 Whether you have a question, need a quote, or want to discuss your ideas, 
                 we’re here to help. Reach out to us today and let’s build something great together.
             </p1>
-            <a href="/wip" class="btn">LET'S BUILD</a>
+            <a href="/contact" class="btn">LET'S BUILD</a>
         </div>
     </section>
 </div>
