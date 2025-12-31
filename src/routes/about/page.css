@@ -1,0 +1,100 @@
+@import url('$css/colors.css');
+
+/* Desktop */
+
+.sec_1 .txtContainer h2, .sec_1 .txtContainer p1 {
+    text-align: left !important;
+}
+
+.sec_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_1 .imgContainer {
+    width: 120rem;
+    height: auto;
+    margin-right: 4rem;
+    position: relative;
+}
+
+.sec_1 .imgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.sec_1 .txtContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 60rem; */
+    gap: .5rem;
+}
+
+/*  */
+
+.sec_2 .txtContainer h2, .sec_2 .txtContainer p1 {
+    text-align: right !important;
+}
+
+.sec_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_2 .imgContainer {
+    width: 120rem;
+    height: auto;
+    margin-left: 4rem;
+    position: relative;
+}
+
+.sec_2 .imgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.sec_2 .txtContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 60rem; */
+    gap: .5rem;
+}
+
+/*  */
+
+.sec_3 .txtContainer h2, .sec_3 .txtContainer p1 {
+    text-align: left !important;
+}
+
+.sec_3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_3 .imgContainer {
+    width: 120rem;
+    height: auto;
+    margin-right: 4rem;
+    position: relative;
+}
+
+.sec_3 .imgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.sec_3 .txtContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 60rem; */
+    gap: .5rem;
+}

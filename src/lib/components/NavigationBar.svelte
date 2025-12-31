@@ -122,7 +122,7 @@
                 <a href="/projects/commercial" title="Commercial" class="normLink" aria-label="Commercial">Commercial</a>
             </div>
             <a href="/contact" title="Contact Us" class="normLink" aria-label="Contact">Contact Us</a>
-            <a href="/wip" title="Who We Are" class="normLink" aria-label="Other Links">Who We Are</a>
+            <a href="/about" title="About Us" class="normLink" aria-label="About Us">About Us</a>
         </div>
     </div>
     <!--desktop view-->
@@ -142,7 +142,7 @@
                     </div>
                 </li>
                 <li><a href="/contact" title="Contact Us" aria-label="Contact Us">Contact Us</a></li>
-                <li><a href="/wip" title="Who We Are" aria-label="Who We Are">Who We Are</a></li>
+                <li><a href="/about" title="About Us" aria-label="About Us">About Us</a></li>
             </div>
         </ul>
     </div>
