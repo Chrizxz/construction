@@ -1,0 +1,14 @@
+import{a,t as i}from"../chunks/disclose-version.CKUoIsW8.js";import"../chunks/legacy.Cym7enx5.js";import{n as s}from"../chunks/runtime.HwoBjEJI.js";/* empty css                       */var n=i(`<title>About Us | Atnip</title> <span class="headspace"></span> <div class="page aboutPage"><div class="sec_1"><div class="imgContainer"><img src="/imgs/atnipAbout1.png" alt="About Atnip Construction" class="heroImage"></div> <div class="txtContainer"><h2>Our Story in the Making</h2> <p1>Jim Atnip has been building longer than most people have been thinking about their first home. 
+                He was out framing a house when his high school class was walking across the graduation stage, 
+                and he picked up his diploma a couple of months later—then went straight back to work. Over the 
+                last three decades, that early start has grown into a lifetime of experience, including years spent 
+                overseeing large commercial and industrial projects as a superintendent.</p1></div></div> <div class="sec_2"><div class="imgContainer"><img src="/imgs/atnipAbout2.png" alt="About Atnip Construction" class="heroImage"></div> <div class="txtContainer"><h2>Our Story in the Making</h2> <p1>Jim Atnip has been building longer than most people have been thinking about their first home. 
+                He was out framing a house when his high school class was walking across the graduation stage, 
+                and he picked up his diploma a couple of months later—then went straight back to work. Over the 
+                last three decades, that early start has grown into a lifetime of experience, including years spent 
+                overseeing large commercial and industrial projects as a superintendent.</p1></div></div> <div class="sec_3"><div class="imgContainer"><img src="/imgs/atnipAbout3.png" alt="About Atnip Construction" class="heroImage"></div> <div class="txtContainer"><h2>Our Story in the Making</h2> <p1>Jim Atnip has been building longer than most people have been thinking about their first home. 
+                He was out framing a house when his high school class was walking across the graduation stage, 
+                and he picked up his diploma a couple of months later—then went straight back to work. Over the 
+                last three decades, that early start has grown into a lifetime of experience, including years spent 
+                overseeing large commercial and industrial projects as a superintendent.</p1></div></div> <section id="connect" class="sec4"><div class="sec4_bg"></div> <div class="sec4_wrap"><h1>Ready to Work with Us?</h1> <p1>Whether you have a question, need a quote, or want to discuss your ideas, 
+                we’re here to help. Reach out to us today and let’s build something great together.</p1> <a href="/contact" class="btn">LET'S BUILD</a></div></section></div>`,1);function l(e){var t=n();s(4),a(e,t)}export{l as component};
