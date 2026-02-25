@@ -59,5 +59,17 @@
             </p1>
         </div>
     </div>
+
+    <section id="connect" class="sec4">
+        <div class="sec4_bg"></div>
+        <div class="sec4_wrap">
+            <h1>Ready to Work with Us?</h1>
+            <p1>
+                Whether you have a question, need a quote, or want to discuss your ideas, 
+                we’re here to help. Reach out to us today and let’s build something great together.
+            </p1>
+            <a href="/contact" class="btn">LET'S BUILD</a>
+        </div>
+    </section>
 </div>
     

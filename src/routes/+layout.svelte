@@ -79,7 +79,7 @@
 
 	@media (min-width: 1536px) {
 		:global(.page) {
-			max-width: 1536px;
+			max-width: 1436px;
 		}
 	}
 </style>
