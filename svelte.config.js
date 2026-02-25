@@ -8,6 +8,7 @@ const config = {
 				fallback: '404.html',
 			}
 		),
+		appDir: 'app',
 		prerender: {
             handleHttpError: () => {
                 return;
