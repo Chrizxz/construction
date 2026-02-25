@@ -166,8 +166,8 @@
             <div class="footLogo"></div>
             <!-- <span class="footLMiddle"></span> -->
             <div class="footLinks">
-                <a href="/privacy-policy">Privacy Policy</a>
-                <a href="/terms-of-service">Terms of Service</a>
+                <!-- <a href="/privacy-policy">Privacy Policy</a> -->
+                <a href="/about">About Us</a>
                 <a href="/contact">Contact</a>
             </div>
         </div>
